@@ -39,7 +39,7 @@ routes.get('/profile',profilePage);
 routes.post('/profileChange',profileChange)
 
 // password change
-routes.get('/changepassword',passport.checkUser,changePassword)
-routes.post('/postChangepassword',passport.checkUser,postChangepassword)
+routes.get('/changepassword',changePassword)
+routes.post('/postChangepassword',postChangepassword)
 
 module.exports = routes;
